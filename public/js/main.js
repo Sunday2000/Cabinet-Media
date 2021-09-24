@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
       $('#header').addClass('header-fixed');
     } else {
       $('.back-to-top').fadeOut('slow');
-      $('#header').removeClass('header-fixed');
+      /* $('#header').removeClass('header-fixed'); */
     }
   });
 
@@ -27,12 +27,7 @@ jQuery(document).ready(function($) {
   new WOW().init();
 
   // Initiate superfish on nav menu
-  $('.nav-menu').superfish({
-    animation: {
-      opacity: 'show'
-    },
-    speed: 400
-  });
+  
 
   // Mobile Navigation
   if ($('#nav-menu-container').length) {

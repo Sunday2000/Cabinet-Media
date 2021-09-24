@@ -1,0 +1,17 @@
+{
+    "name": "cabinet/media",
+    "description": "Site vitrine pour cabinet§media",
+    "authors": [
+        {
+            "name": "Sunday Kodonon",
+            "email": "kodonoumahuwanu@gmail.com"
+        }
+    ],
+    "autoload":{
+        "files":["src/helpers.php"],
+        "psr-4": {
+            "Router\\":"routes/"
+        }
+    },
+    "require": {}
+}
