@@ -113,18 +113,18 @@
     <!-- Owl-Carousel Script -->
     <script>
 
-        $(document).ready(function(){
-            let owl = $(".owl-carousel");
-            owl.owlCarousel({
-                items:3,
-                loop:true,
-                margin:10,
-                autoplaySpeed: 1500,
-                autoplay:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true
-            });
-        });
+      $(document).ready(function(){
+          let owl = $(".owl-carousel");
+          owl.owlCarousel({
+              items:3,
+              loop:true,
+              margin:10,
+              autoplaySpeed: 1500,
+              autoplay:true,
+              autoplayTimeout:3000,
+              autoplayHoverPause:true
+          });
+      });
 
     </script>
 

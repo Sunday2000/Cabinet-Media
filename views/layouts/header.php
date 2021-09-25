@@ -41,23 +41,25 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header">
+  <header id="header" class="header-fixed mb-5">
     <div class="container">
+      <div class="row d-flex justify-content-between">
 
-      <div id="logo" class="pull-left">
-        <h6><a href="#intro" class="scrollto">COMMUNICATION ET MEDIA CONSULTING</a></h6>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+        <div id="logo" class="">
+          <h6><a href="/" class="scrollto">COMMUNICATION ET MEDIA CONSULTING</a></h6>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+        </div>
+  
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a class=" <?php echo active_link($route, '/') ?>" href="/">Accueil</a></li>
+            <li><a href="/a-propos" class="<?php echo active_link($route, '/a-propos') ?>">A Propos </a></li>
+            <!-- <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li> -->
+            <li><a href="#contact">Nous Contacter</a></li>
+          </ul>
+        </nav><!-- #nav-menu-container -->
       </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a class=" <?php echo active_link($route, '/') ?>" href="/">Accueil</a></li>
-          <li><a href="/a-propos" class="<?php echo active_link($route, '/a-propos') ?>">A Propos </a></li>
-          <!-- <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li> -->
-          <li><a href="#contact">Nous Contacter</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
