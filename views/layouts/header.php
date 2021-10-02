@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Avilon Bootstrap Template</title>
+  <title>CMC - Consulting</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -28,6 +28,11 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/owlcarousel/js/owl.carousel.min.js"></script>
+
+  <!-- Owl-Carousel Script -->
+  <script src="js/services.js"></script>
   <!-- =======================================================
     Theme Name: Avilon
     Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/

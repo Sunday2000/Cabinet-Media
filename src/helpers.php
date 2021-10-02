@@ -1,8 +1,11 @@
 <?php
     
-function render(string $view, $route = null)
+function render(string $view, $route = null, $variable = null)
 {
-    include(VIEW_PATH.DIRECTORY_SEPARATOR.$view.'.php');
+    ob_start();
+    require(VIEW_PATH.DIRECTORY_SEPARATOR.$view.'.php');
+    $content = ob_get_clean();
+    require(VIEW_PATH.DIRECTORY_SEPARATOR.'layouts'.DIRECTORY_SEPARATOR.'layout.php');
 }
 
 function active_link($route, $url){

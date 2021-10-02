@@ -1173,6 +1173,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 400px;
 }
 
+.spoiler-content{
+  display:inline-block;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.5s;
+}
+
+.spoiler-content.visible{
+  display:inline;
+  width: auto;
+  height: auto;
+  opacity: 1;
+}
+
 .text-center p{
   font-weight: normal;
 }
@@ -1183,6 +1199,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .font-bold{
   font-weight: bold;
+}
+
+button.owl-prev span, button.owl-next span{
+   font-size: 30px;
+   padding:1px;
+}
+
+button.owl-prev span{
+  margin-right: 5px;
+}
+
+button.owl-next span{
+  margin-left: 5px;
 }
 
 @media (min-width: 769px) {

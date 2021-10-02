@@ -10,7 +10,8 @@
     "autoload":{
         "files":["src/helpers.php"],
         "psr-4": {
-            "Router\\":"routes/"
+            "Router\\":"routes/",
+            "App\\":"src/"
         }
     },
     "require": {}
