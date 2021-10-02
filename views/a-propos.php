@@ -18,7 +18,7 @@
 
         <div class="row">
             <div class="col-lg-6 about-img wow fadeInLeft">
-                <img src="img/about-img.jpg" alt="">
+                <img src="img/media/about.jpg" alt="">
             </div>
 
             <div class="col-lg-6 content wow fadeInRight">
