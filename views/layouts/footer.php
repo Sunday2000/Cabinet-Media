@@ -11,7 +11,7 @@
         <div class="row wow fadeInUp">
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>COMMUNICATION ET MEDIA CONSULTING</h3>
+              <h5>COMMUNICATION ET MEDIA CONSULTING</h5>
               <p>
                 COMMUNICATION ET MEDIA CONSULTING vous apporte des solutions susceptibles de donner aux médias du Bénin, tous les attributs d’entreprises de presse solides et viables.
               </p>
@@ -66,7 +66,7 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button type="submit" title="Send Message">Envoyer</button></div>
               </form>
             </div>
           </div>

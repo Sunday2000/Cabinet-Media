@@ -5,7 +5,7 @@
 <div class="row d-flex justify-content-around owl-carousel owl-theme fadeInLeft">
     <div class="text-center">
         <span class="fa-stack fa-5x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-circle fa-stack-2x text-blue"></i>
             <i class="fa fa-group fa-stack-1x fa-inverse"></i> 
         </span>
         <h5 class="font-bold">
@@ -21,8 +21,8 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-group fa-stack-1x fa-inverse"></i> 
+            <i class="fa fa-circle fa-stack-2x text-blue"></i>
+            <i class="fa fa-user-plus fa-stack-1x fa-inverse"></i> 
             <!-- <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>  -->
         </span>
         <h5 class="font-bold">
@@ -35,8 +35,8 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-cogs fa-stack-1x fa-inverse"></i> 
+            <i class="fa fa-circle fa-stack-2x text-blue"></i>
+            <i class="fa fa-cog fa-stack-1x fa-inverse"></i> 
         </span>
         <h5 class="font-bold">
             Suivi de gestion et de rentabilité
@@ -48,8 +48,8 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-group fa-stack-1x fa-inverse"></i> 
+            <i class="fa fa-circle fa-stack-2x text-blue"></i>
+            <i class="fa fa-plus fa-stack-1x fa-inverse"></i> 
         </span>
         <h5 class="font-bold">
             Coaching d’équipes et formation
@@ -61,7 +61,7 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-circle fa-stack-2x text-blue"></i>
             <i class="fa fa-wrench fa-inverse fa-stack-1x" aria-hidden="true"></i>
             <!-- <i class="fa fa-pencil fa-stack-1x"></i>  -->
         </span>
@@ -75,7 +75,7 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+        <i class="fa fa-circle fa-stack-2x text-blue"></i>
         <i class="fa fa-cogs fa-stack-1x fa-inverse"></i> </span>
         <h5 class="font-bold">
             Conception de programmes rentables.
@@ -87,7 +87,7 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+        <i class="fa fa-circle fa-stack-2x text-blue"></i>
         <i class="fa fa-pencil fa-stack-1x fa-inverse"></i> </span>
         <h5 class="font-bold">
             Rédaction de projets de média
@@ -99,8 +99,8 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i> </span>
+        <i class="fa fa-circle fa-stack-2x text-blue"></i>
+        <i class="fa fa-podcast fa-stack-1x fa-inverse"></i> </span>
         <h5 class="font-bold">
             Production et diffusion
         </h5>
@@ -111,7 +111,7 @@
     </div>
     <div class=" text-center">
         <span class="fa-stack fa-5x">
-        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+        <i class="fa fa-circle fa-stack-2x text-blue"></i>
         <i class="fa fa-globe fa-stack-1x fa-inverse"></i> </span>
         <h5 class="font-bold">
             Communication

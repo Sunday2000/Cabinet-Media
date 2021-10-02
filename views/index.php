@@ -6,7 +6,7 @@
 
     <!-- <div class="intro-text"> -->
     <div class="intro-text">
-      <h2>Bienvenue à COMMUNICATION ET MEDIA CONSULTING</h2>
+      <h2>Bienvenue à <span class="name">COMMUNICATION ET MEDIA CONSULTING</span></h2>
       <p>Votre guide dans le monde du média.</p>
       <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
     </div>
