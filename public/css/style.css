@@ -167,15 +167,6 @@ h6 {
   color: #fff;
 }
 
-#intro .name {
-  margin: 0 0 10px 0;
-  padding: 0;
-  font-size: 30px;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
 #intro p {
   color: #fff;
@@ -717,10 +708,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
-  background: #1dc8cd;
-  border: 2px solid #1dc8cd;
-}
 
 /* More Features Section
 --------------------------------*/
@@ -777,23 +764,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Clients Section
 --------------------------------*/
-
-#clients {
-  padding: 30px 0;
-  background: #fff;
-  overflow: hidden;
-}
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
 
 /* Pricing Section
 --------------------------------*/
@@ -925,53 +895,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Our Team Section
 --------------------------------*/
 
-#team {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-
-#team .member .pic img {
+img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
   max-width: 100%;
+  height: auto;
 }
 
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-  color: #1dc8cd;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
 }
 
 /* Gallery Section
@@ -1020,6 +963,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .gallery-item:hover .gallery-overlay {
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
+}
+
+.team {
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.team:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 /* Contact Section

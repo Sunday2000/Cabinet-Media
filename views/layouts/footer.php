@@ -29,7 +29,7 @@
             <div class="info">
               <div>
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>Immeuble BABA en face du Campus d'Abomey calavi</p>
               </div>
 
               <div>
@@ -39,7 +39,7 @@
 
               <div>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+229 53 31 31 92</p>
               </div>
 
             </div>

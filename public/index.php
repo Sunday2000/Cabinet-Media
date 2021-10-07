@@ -11,6 +11,7 @@ $router = App::getRouter($_SERVER['PATH_INFO'] ?? '/');
 
 $router->get('/', 'index');
 $router->get('/a-propos', 'a-propos');
+$router->get('/team', 'team');
 $router->post('/contact', 'App\Controller\ContactController@index');
 
 $router->run($_SERVER);

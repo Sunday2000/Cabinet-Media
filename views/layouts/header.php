@@ -60,6 +60,7 @@
           <ul class="nav-menu">
             <li class="menu-active"><a class=" <?php echo active_link($route, '/') ?>" href="/">Accueil</a></li>
             <li><a href="/a-propos" class="<?php echo active_link($route, '/a-propos') ?>">A Propos </a></li>
+            <li><a href="/team" class="<?php echo active_link($route, '/team') ?>">Equipe</a></li>
             <!-- <li><a href="#features">Features</a></li>
             <li><a href="#pricing">Pricing</a></li> -->
             <li><a href="#contact">Nous Contacter</a></li>
