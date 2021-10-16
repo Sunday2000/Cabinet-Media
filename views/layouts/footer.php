@@ -34,7 +34,7 @@
 
               <div>
                 <i class="ion-ios-email-outline"></i>
-                <p>mediaconsulting@yahoo.fr</p>
+                <p>contact@communicationetmedia.net</p>
               </div>
 
               <div>
@@ -45,7 +45,7 @@
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-8">
+          <div class="col-lg-4 col-md-6 ml-5">
             <div class="form">
               <form action="/contact" method="post" role="form" class="contactForm">
                 <div class="form-row">

@@ -1,5 +1,10 @@
+Options +FollowSymLinks -MultiViews -Indexes
 RewriteEngine On
+RewriteBase /
 
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule ^(.*)$ public/$1 [L]
 RewriteCond %{REQUEST_FILENAME} !-f
-
-RewriteRule ^(.*)$ public/index.php?url=$i [QSA, L]
+RewriteRule ^(.*)$ public/index.php%{REQUEST_URI} [QSA,L]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{PATH_INFO} [L,R=301]

@@ -33,14 +33,19 @@ class Router {
 
     private function execute(Route $route)
     {
-        $path_info = explode('@', $route->action);
-        $path_part = count($path_info);
-        if ($path_part == 1){
-            return render($path_info[0], $route);
-        } else if($path_part == 2){
-            $controller = new $path_info[0]();
-            $function = $path_info[1];
-            return $controller->$function($_POST);
+        if (is_callable($route->action)){
+            $action = $route->action;
+            return $action();
+        }else{
+            $path_info = explode('@', $route->action);
+            $path_part = count($path_info);
+            if ($path_part == 1){
+                return render($path_info[0], $route);
+            } else if($path_part == 2){
+                $controller = new $path_info[0]();
+                $function = $path_info[1];
+                return $controller->$function($_POST);
+            }
         }
     }
 

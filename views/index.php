@@ -12,7 +12,7 @@
         Votre conseil en organisation des médias.
       </p>
       <img src="img/cam1.png" alt="">
-      <a class="btn btn-info round" href="">A propos</a>
+      <a class="btn btn-info round" href="/a-propos">A propos</a>
       <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
     </div>
 

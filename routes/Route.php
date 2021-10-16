@@ -7,7 +7,7 @@ class Route {
     public $path;
     public $action;
 
-    public function __construct(string $path, string $action){
+    public function __construct(string $path, $action){
         $this->path = trim($path, '/');
         $this->action = $action;
     }
